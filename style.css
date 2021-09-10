@@ -1,14 +1,66 @@
-textarea{
+:root {
+    --primary-color: #F2C94C
+}
+
+textarea {
     width: 80%;
     height: 10vh;
     display: block;
     margin: auto;
     padding: 1rem;
+    max-width: 600px;
+    padding-bottom: 2rem;
 }
-#output{
+
+#output {
     border: 1px solid black;
     width: 80%;
     height: 10vh;
     margin: auto;
     padding: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    max-width: 600px;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.container {
+    text-align: center;
+    background: white;
+    min-height: 500px;
+    padding-top: 5rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    padding-right: 20%;
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+}
+
+#btn-translate {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+
 }
